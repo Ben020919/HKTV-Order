@@ -1,4 +1,8 @@
 import streamlit as st
+# 🌟 解決 Streamlit Cloud 找不到瀏覽器的問題
+# 在程式啟動時，強制讓系統安裝 Playwright 需要的 Chromium 瀏覽器
+os.system("playwright install chromium")
+os.system("playwright install-deps chromium") # 安裝必要的系統依賴套件
 from playwright.sync_api import sync_playwright
 from datetime import datetime, timedelta, timezone
 import threading
