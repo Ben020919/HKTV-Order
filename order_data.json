@@ -1,0 +1,20 @@
+{
+    "today": {
+        "date": "2026-03-13",
+        "CONFIRMED": "1",
+        "ACKNOWLEDGED": "0",
+        "PICKED": "60",
+        "TOTAL_TARGET": "60",
+        "CANCELED": "0"
+    },
+    "tomorrow": {
+        "date": "2026-03-14",
+        "CONFIRMED": "67",
+        "ACKNOWLEDGED": "287",
+        "PICKED": "387",
+        "TOTAL_TARGET": "674",
+        "CANCELED": "0"
+    },
+    "last_updated": "2026-03-13 12:19:46",
+    "status_msg": "⚡ 最新狀態：自動背景更新成功！"
+}
