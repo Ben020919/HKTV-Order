@@ -1,4 +1,10 @@
 import streamlit as st
+# 確保啟動時下載 Chromium 瀏覽器
+@st.cache_resource
+def install_playwright():
+    os.system("playwright install chromium")
+
+install_playwright()
 from playwright.sync_api import sync_playwright
 from datetime import datetime, timedelta, timezone
 import threading
